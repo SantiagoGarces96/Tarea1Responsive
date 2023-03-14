@@ -1,10 +1,12 @@
 
 @media (max-width:768px) {
     .navbar__optios{
+        width: 100%;
         display: none;
     }
 
     .menu__mobile{
+        width: 100%;
         display: block !important;
     }
 
