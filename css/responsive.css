@@ -1,12 +1,15 @@
 
-@media (max-width:768px) {
-    .navbar__optios{
+@media (max-width:800px) {
+    .navbar {
         width: 100%;
+
+    }
+
+    .navbar__optios{
         display: none;
     }
 
     .menu__mobile{
-        width: 100%;
         display: block !important;
     }
 
@@ -22,9 +25,13 @@
         margin: none;
     }
 
-    .personajes{
+    .productos{
         margin-top: 60px;
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .footer{
+        width: 100%;
     }
 }

@@ -55,33 +55,22 @@ body{
     50% {
       border-color:black;;
     }
+    100% {
+        border-color: white;
+      }
     
   }
   
 
-
-.icon__svg{
-    width: 15px;
-    height: 15px;
-}
-
-.navbar__optios .navbar__optios--item:hover .icon__svg{
-    animation: spin 1s linear forwards;
-}
-
-
 @keyframes spin {
-    10% {
-      transform:rotateZ('angle');
+    0% {
+      transform: rotate(0deg);
     }
-    10% {
-      transform:rotateX('angle');
+    100% {
+      transform: rotate(360deg);
     }
   }
 
-.icons__svg--path{
-    fill:#FFF;
-}
 
     .menu__mobile{
         width: 30px;
@@ -138,9 +127,10 @@ body{
 }
 
 .sidebar__form{
-    margin-top: 20px;
+    margin-top: 60px;
 
 }
+
 
 .form-group{
     margin-bottom: 15px;
@@ -191,21 +181,14 @@ body{
 }
 
 .producto{
+    padding: 15px;
     width: auto;
     margin-right: 10px;
+    margin-bottom: 10px;
     border-color: #1b1e1e;
+    background-color: #1b1e1e;
 }
 
-.producto{
-    padding: 15px;
-    margin-bottom: 10px;
-    border-color:aqua;
-    background-color: #1b1e1e;
-   
-   
- 
-    
-}
 
 .producto .title{
     text-align: center;
